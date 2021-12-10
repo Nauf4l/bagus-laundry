@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aleo&display=swap');
+
+*{
+    margin: 0rem;
+    padding: 0rem;
+}
+
+header img{
+    border-radius: 50%;
+}
+#opening {
+    background: url(baguslaundry.jpg) no-repeat center center fixed;
+    display: table;
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    background-size: cover;
+}
+.opening::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(21, 21, 27, 0.89);
+    z-index: -1;
+}
+.contents {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.contents h1 {
+    color: white;
+    font-family: 'Aleo', serif;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 52px;
+}
+.contents h2 {
+    color: white;
+    font-family: 'Teko', sans-serif;
+    letter-spacing: 1px;
+    font-size: 40px;
+}
+
+.contents button:hover {
+    background-color: #0da6ff;
+    color: yellow; 
+    letter-spacing: 1px;
+}
+.contents button {
+    text-transform: uppercase;
+  font-weight: 400;
+  font-size: 30px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 14px 30px;
+  border-radius: 3px;
+  margin: 10px;
+  font-size: 16px;
+  font-style: initial;
+}
